@@ -1,0 +1,106 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Using a more modern font */
+    background: #f4f6f8; /* Slightly lighter background for a modern look */
+    margin: 0;
+    color: #333; /* Darker text for better readability */
+}
+
+/* Sidebar Styling */
+.sidebar-menu {
+    background-color: #343a40; /* Darker background for sidebar */
+    color: #ffffff;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.sidebar-menu a {
+    color: #adb5bd; /* Lighter color for inactive links */
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar-menu a:hover {
+    background: #495057; /* Highlight link on hover */
+    color: #ffffff; /* Change color to white */
+}
+
+/* Header Styling */
+.header {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adding shadow for elevation */
+}
+
+.header a {
+    color: #343a40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Statistic Cards */
+.stat-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Pass & Fail Chart Container */
+.pass-fail-chart {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Current Risks Table */
+.current-risks {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-risks table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.current-risks th, .current-risks td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.current-risks th {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Buttons */
+.button {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darken on hover */
+}
